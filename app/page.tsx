@@ -8,7 +8,6 @@ export default function Home() {
     <div>
       <Banner></Banner>
       <div className="bg-red-800 rounded-br-[200px] h-[574px]">
-
         <div className="flex flex-row my-16 pb-24 justify-center rounded-br-[220px] bg-white">
           <Image
             src="/image1.jpg"
@@ -43,9 +42,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </div>
-      <Footer></Footer>
     </div>
   );
 }

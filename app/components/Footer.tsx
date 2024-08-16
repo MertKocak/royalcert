@@ -45,8 +45,8 @@ const Footer: React.FC = () => {
     }
 
     return (
-        <footer className="flex flex-row items-center justify-center mx-44">
-            <div className="my-16 mr-8 h-40">
+        <footer className="flex flex-row items-center justify-center  bg-white">
+            <div className="my-16 mr-8 h-40 ml-32">
                 <Image
                     src="/logo.jpg"
                     alt="logo"
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
                     {footerLink("Project Management")}
                     {footerLink("Tax and Consultancy")}
                 </div>
-                <div className='flex flex-col mr-6  mt-4'>
+                <div className='flex flex-col mr-6 ml-10  mt-4'>
                     {footerLink("Regulations")}
                     {footerLink("Offices")}
                     {footerLink("Privacy and KVKK")}
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col ml-36 my-16 h-40'>
+            <div className='flex flex-col ml-52 my-16 h-40 mr-32'>
                 <p className='text-red-600 text-xs font-semibold mb-3'>Contacts</p>
                 {contactInfo("info@royalcert.com", "/mail-gray.png")}
                 {contactInfo("+90 216 688 09 10", "/telephone.png")}
