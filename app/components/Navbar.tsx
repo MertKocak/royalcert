@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link href="/" className="text-black hover:text-gray-600 text-sm font-bold">
               Services
             </Link>
-            <Link href="/" className="text-black hover:text-gray-600 text-sm font-bold">
+            <Link href="/pages/sustainability" className="text-black hover:text-gray-600 text-sm font-bold">
               Sustainability
             </Link>
             <Link href="/" className="text-black hover:text-gray-600 text-sm font-bold">
