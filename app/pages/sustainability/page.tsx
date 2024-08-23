@@ -16,13 +16,13 @@ export default function Home() {
             <div className="bg-red-800 rounded-br-[200px] h-[3280px]">
                 <div className="flex flex-col h-[3240px] rounded-br-[220px] bg-white">
                     {/**Sustainable Tourism */}
-                    <div className="bg-green-800 mb-4 py-24 flex flex-row px-48 h-[520px] relative">
+                    <div className="bg-green-800 mb-4 py-24 flex flex-row px-48 h-[540px] relative">
                         <Image
                             src="/bg.png"
                             alt="bg"
                             layout="fill"
                             objectFit="cover"
-                            className="z-0 h-[600px] flex"
+                            className="z-0 flex"
                         />
                         <div className="flex flex-row mr-60 justify-center items-center absolute">
                             <div className="flex flex-col">
