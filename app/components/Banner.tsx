@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Example() {
+export default function Banner() {
     return (
         <div className="relative mt-1">
             <img src="/banner_img.jpg" alt="Logo" className="w-full" />
