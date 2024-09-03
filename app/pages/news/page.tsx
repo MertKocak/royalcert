@@ -1,26 +1,23 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import Slider from '@/app/components/Slider-globalNews'
+import Slider from '@/app/components/Slider-news'
 
 type Props = {}
 
-export default function globalNews({ }: Props) {
+export default function news({ }: Props) {
     return (
-        <div className="bg-red-800 rounded-br-[200px] h-[1620px]">
-            <div className="flex flex-col my-16 pb-24 h-[1570px] rounded-br-[220px] bg-white">
-                <div className='items-center justify-center space-y-3 flex flex-col mb-6'>
-                    <p className='text-black font-semibold text-lg '>Crown Your Quality</p>
-                    <p className='text-red-700 font-semibold text-2xl text-center'>JUNE 5 WORLD ENVIRONMENT DAY AND<br></br>SUSTAINABLE TOURISM</p>
-                    <p className='text-gray-600 font-medium text-[10px] '>06.12.2024</p>
+        <div className="bg-red-800 flex flex-col rounded-br-[200px] h-[1580px]">
+            <div className='flex flex-col h-[1530px] rounded-br-[220px] bg-white'>
+                <div className='relative'>
+                    <img src="/news-image1.jpg" alt="img" className="object-cover w-full h-[360px]" />
+                    <div className="absolute inset-0 bg-red-800 opacity-80 "></div>
+                    <div className='text-white flex flex-col text-center inset-0 absolute content-center justify-center'>
+                        <p className='text-3xl font-medium'>Crown Your Quality</p>
+                        <p className='text-5xl font-normal mt-6'>JUNE 5 WORLD ENVIRONMENT DAY<br></br>AND SUSTAINABLE TOURISM</p>
+                        <p className='text-white mt-6 font-light text-xs'>06.12.2024</p>
+                    </div>
                 </div>
-                <Image
-                    src="/globalNewsImage.png"
-                    alt="image"
-                    width={1100}
-                    height={400}
-                    className="rounded-3xl mx-auto"
-                />
                 <div className='mx-96 my-16 items-center flex justify-center'>
                     <p className='text-black font-medium text-xs'>
                         ISO sets quality standards for industries. These standards are aimed at increasing customer satisfaction and encouraging costs to be reduced.<br></br><br></br><br></br>

@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link href="/" className="text-black hover:text-gray-600 text-sm font-bold">
               Sectors
             </Link>
-            <Link href="/" className="text-black hover:text-gray-600 text-sm font-bold">
+            <Link href="/pages/servicesPage" className="text-black hover:text-gray-600 text-sm font-bold">
               Services
             </Link>
             <Link href="/pages/sustainability" className="text-black hover:text-gray-600 text-sm font-bold">
@@ -41,7 +41,7 @@ const Navbar = () => {
             <Link href="/pages/contact" className="text-black hover:text-gray-600 text-sm font-bold">
               Contact
             </Link>
-            <Link href="/" className="text-black hover:text-gray-600 text-sm font-bold">
+            <Link href="/pages/news" className="text-black hover:text-gray-600 text-sm font-bold">
               News
             </Link>
             <Link href="/pages/globalNews" className="text-black hover:text-gray-600 text-sm font-bold">
@@ -68,7 +68,7 @@ const Navbar = () => {
           <Link href="/" className="text-white hover:text-gray-100 text-xs">
             Our Company
           </Link>
-          <Link href="/" className="text-white hover:text-gray-100 text-xs">
+          <Link href="/pages/servicesPage" className="text-white hover:text-gray-100 text-xs">
             Services
           </Link>
           <Link href="/" className="text-white hover:text-gray-100 text-xs">
