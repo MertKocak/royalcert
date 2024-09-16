@@ -83,7 +83,7 @@ const Navbar = () => {
           <Link href="/" className="text-white hover:text-gray-100 text-xs">
             Contact
           </Link>
-          <Link href="/" className="text-white hover:text-gray-100 text-xs">
+          <Link href="/pages/accreditationPage" className="text-white hover:text-gray-100 text-xs">
             Accreditation
           </Link>
           <Link href="/pages/certificationSearch" className="text-white hover:text-gray-100 text-xs">
